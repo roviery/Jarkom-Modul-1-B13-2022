@@ -33,7 +33,7 @@ dan simpan output file dengan nama “flag.txt”
 ![soal-9-1](https://github.com/roviery/Jarkom-Modul-1-B13-2022/blob/master/img/soal-9-1.jpg)
 - Setelah itu mencari file yang mengandung kata salt dengan menggunakan
 display filter tcp.srcport == 9002 && tcp contains "Salt" setelah itu follow
-stream dan Save As dengan nama file B13.des3 dan flag.txt
+stream dan Save As dengan nama file B13.des3 dan flag.txt  
 ![soal-9-2](https://github.com/roviery/Jarkom-Modul-1-B13-2022/blob/master/img/soal-9-2.jpg)
 
 
