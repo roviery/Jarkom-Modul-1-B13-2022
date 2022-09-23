@@ -7,6 +7,15 @@
 | 2 | Elbert Dicky Aristyo | 5025201231 |
 | 3 | Nathanael Roviery | 5025201258 |
 
+## Soal 1
+Sebutkan web server yang digunakan pada "monta.if.its.ac.id"!
+- Menggunakan display filter tcp contains monta.if.its.ac.id
+- Lalu klik kanan dan pilih follow tcp stream dari salah satu package untuk mendapat informasi tentang web server yang digunakan.
+didapatkan informasi server yaitu **nginx/1.10.3**
+
+
+
+
 ## Soal 3
 Filter sehingga wireshark hanya menampilkan paket yang menuju port 80!  
 Wireshark filter expression: **tcp.dstport == 80**
