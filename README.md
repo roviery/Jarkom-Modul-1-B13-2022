@@ -46,7 +46,7 @@ Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 - pada captures filter gunakan **src host 192.168.137.49**
 ![soal-7-2](https://github.com/roviery/Jarkom-Modul-1-B13-2022/blob/master/img/soal7-2.png)
 
-lalu didapatkan info 
+- lalu didapatkan info 
 ![soal-7-3](https://github.com/roviery/Jarkom-Modul-1-B13-2022/blob/master/img/soal7-3.png)
 
 ## Soal 9
