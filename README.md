@@ -39,8 +39,15 @@ Wireshark filter expression **tcp contains lipi.go.id**
 
 ## Soal 7
 Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
-- gunakan CMD untuk menampilkan alamat IP yang sedang digunakan, jalankan perintah ipconfig. Dan didapatkan alamat IPv4 adalah 192.168.18.66
-![soal-7-1](https://github.com/roviery/Jarkom-Modul-1-B13-2022/blob/master/img/soal7-1.jpg)
+- gunakan CMD untuk menampilkan alamat IP yang sedang digunakan, jalankan perintah ipconfig. Dan didapatkan alamat IPv4 adalah *192.168.18.66*
+
+![soal-7-1](https://github.com/roviery/Jarkom-Modul-1-B13-2022/blob/master/img/soal7-1.png)
+
+- pada captures filter gunakan **src host 192.168.137.49**
+![soal-7-2](https://github.com/roviery/Jarkom-Modul-1-B13-2022/blob/master/img/soal7-2.png)
+
+lalu didapatkan info 
+![soal-7-3](https://github.com/roviery/Jarkom-Modul-1-B13-2022/blob/master/img/soal7-3.png)
 
 ## Soal 9
 Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam
