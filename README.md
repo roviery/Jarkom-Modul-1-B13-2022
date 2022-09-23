@@ -12,9 +12,8 @@ Sebutkan web server yang digunakan pada "monta.if.its.ac.id"!
 - Menggunakan display filter tcp contains monta.if.its.ac.id
 - Lalu klik kanan dan pilih follow tcp stream dari salah satu package untuk mendapat informasi tentang web server yang digunakan.
 didapatkan informasi server yaitu **nginx/1.10.3**
-
-
-
+![soal-1-1](https://github.com/roviery/Jarkom-Modul-1-B13-2022/blob/master/img/soal1-1.png)
+![soal-1-2](https://github.com/roviery/Jarkom-Modul-1-B13-2022/blob/master/img/soal1-2.png)
 
 ## Soal 3
 Filter sehingga wireshark hanya menampilkan paket yang menuju port 80!  
@@ -23,6 +22,13 @@ Wireshark filter expression: **tcp.dstport == 80**
 - Setelah itu muncul hasil filter paket menuju port 80
 ![soal-3](https://github.com/roviery/Jarkom-Modul-1-B13-2022/blob/master/img/soal-3.jpg)
 
+## Soal 4
+Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
+
+Wireshark filter expression: **tcp.port == 21 || udp.port == 21**
+Digunakan srcport untuk filter paket berdasarkan port asal (source)
+![soal-4](https://github.com/roviery/Jarkom-Modul-1-B13-2022/blob/master/img/soal4.png)
+
 ## Soal 6
 Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id !  
 Wireshark filter expression **tcp contains lipi.go.id**
@@ -30,6 +36,11 @@ Wireshark filter expression **tcp contains lipi.go.id**
 - Menggunakan display filter **tcp contains lipi.go.id**
 - Setelah itu muncul paket yang menuju lipi.go.id
 ![soal-6](https://github.com/roviery/Jarkom-Modul-1-B13-2022/blob/master/img/soal-6.jpg)
+
+## Soal 7
+Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+- gunakan CMD untuk menampilkan alamat IP yang sedang digunakan, jalankan perintah ipconfig. Dan didapatkan alamat IPv4 adalah 192.168.18.66
+![soal-7-1](https://github.com/roviery/Jarkom-Modul-1-B13-2022/blob/master/img/soal7-1.jpg)
 
 ## Soal 9
 Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam
