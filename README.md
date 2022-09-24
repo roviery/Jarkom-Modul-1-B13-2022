@@ -15,6 +15,17 @@ didapatkan informasi server yaitu **nginx/1.10.3**
 ![soal-1-1](https://github.com/roviery/Jarkom-Modul-1-B13-2022/blob/master/img/soal1-1.png)
 ![soal-1-2](https://github.com/roviery/Jarkom-Modul-1-B13-2022/blob/master/img/soal1-2.png)
 
+## Soal 2
+Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan detail topik pada website “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq ?
+
+Wireshark filter expression: **http matches "detailtopik"** 
+
+Digunakan display filter ini untuk mencari paket http yang menampilkan kata kunci “detailtopik”.
+![soal-2-1](https://github.com/roviery/Jarkom-Modul-1-B13-2022/blob/master/img/soal-2-1.png)
+
+Sesuai hasil dari display, Judul TA yang dibuka adalah Evaluasi unjuk kerja User Space Filesystem (FUSE).
+![soal-2-2](https://github.com/roviery/Jarkom-Modul-1-B13-2022/blob/master/img/soal-2-2.png)
+
 ## Soal 3
 Filter sehingga wireshark hanya menampilkan paket yang menuju port 80!  
 Wireshark filter expression: **tcp.dstport == 80**
@@ -26,8 +37,17 @@ Wireshark filter expression: **tcp.dstport == 80**
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
 
 Wireshark filter expression: **tcp.port == 21 || udp.port == 21**
+
 Digunakan srcport untuk filter paket berdasarkan port asal (source)
 ![soal-4](https://github.com/roviery/Jarkom-Modul-1-B13-2022/blob/master/img/soal4.png)
+
+## Soal 5
+Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
+
+Wireshark filter expression: **udp.srcport == 443 || tcp.srcport == 443**
+
+Digunakan srcport untuk filter paket berdasarkan port asal (source) 
+![soal-5](https://github.com/roviery/Jarkom-Modul-1-B13-2022/blob/master/img/soal-5.png)
 
 ## Soal 6
 Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id !  
@@ -50,6 +70,13 @@ Pada pengerjaan saat praktikum, saya mengganti wifi sehingga ada perbedaan alama
 
 - lalu didapatkan info 
 ![soal-7-3](https://github.com/roviery/Jarkom-Modul-1-B13-2022/blob/master/img/soal7-3.png)
+
+## Soal 8
+Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum. Percakapan tersebut dilaporkan menggunakan protokol jaringan dengan tingkat keandalan yang tinggi dalam pertukaran datanya sehingga kalian perlu menerapkan filter dengan protokol yang tersebut.
+
+Percakapan kecurangan dapat dicari dengan tcp matches “jawaban” dan dilihat satu persatu dengan klik kanan paket → Follow → TCP Stream atau display filter tcp.stream eq 12.
+![soal-8-1](https://github.com/roviery/Jarkom-Modul-1-B13-2022/blob/master/img/soal-8-1.png)
+![soal-8-2](https://github.com/roviery/Jarkom-Modul-1-B13-2022/blob/master/img/soal-8-2.png)
 
 ## Soal 9
 Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam
